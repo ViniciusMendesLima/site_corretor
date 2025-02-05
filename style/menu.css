@@ -64,6 +64,7 @@
   right: -20rem;
   transition: all 1s;
   z-index: 20;
+  border-radius: 20px 0 0 20px;
 }
 .sidebar.show-menu{
   right: 0;
