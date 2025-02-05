@@ -7,3 +7,11 @@
 - Serviços oferecidos
 - Depoimentos
 - Contatos
+
+### Desafio
+- Fazer o texto da classe "corpo-show" ficar no centro
+#### Como Resolveu
+- A classe ".show-imagens" foi atualizado com: <br>
+    display: flex;<br>
+    justify-content: center;<br>
+    align-items: center;<br>

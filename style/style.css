@@ -271,6 +271,9 @@ margin: auto;
   opacity: 1;
 }
 .show-imagens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -283,8 +286,6 @@ margin: auto;
   position: absolute;
   color:#fff;
   text-align: center;
-  top: 32%;
-  left: 36%;
   transition: translate(-50%,-50%);
 
 }
