@@ -1,0 +1,85 @@
+.corpo-apresentacao{
+    position: absolute;
+    background-color: var(--color1);
+    color: var(--txt5);
+    width: 100%;
+    height: auto;
+    min-height: 442px;
+    text-align: center;
+    padding-top: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+    
+  .corpo-apresentacao h1{
+    font-size: 57px;
+  
+  }
+  .corpo-apresentacao p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: normal;
+  }
+  
+  .corpo-imagem{
+   display: flex;
+   flex-direction: row;
+  position: relative;
+  background-color: var(--color4);
+  width: 92%;
+  height: 548px;
+  top: 270px;
+  left: 50px;
+  }
+  
+  .corpo-imagem-1 {
+    width: 50%;
+    background-size: cover;
+    background-image:url(../images/ft1.webp);
+  }
+  
+  .corpo-imagem-2{
+  margin: auto;
+  }
+  .corpo-imagem-2-img{
+  
+    width: 248px;
+    height: 380px;
+  
+    background-color: #2E4942;
+    background-image:url(../images/ft2.webp);
+    background-size: cover;
+  }
+  
+  .corpo-sobre{
+    margin-top: 16.859rem ;
+    margin-bottom: 3rem;
+    height: 24.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color5);
+  }
+  .corpo-sobre h2{
+    letter-spacing: 0.05em;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+  }
+  
+  .corpo-sobre-descricao{
+    width:35.75rem ;
+  }
+  .corpo-sobre-descricao p{
+    font-weight: 400;
+  }
+  
+  .corpo-sobre-descricao p {
+    line-height: 1.7em;
+    text-align: center;
+    font-size: 20px;
+  }

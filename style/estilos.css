@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400&display=swap');
+/* font-family: 'Jost', sans-serif; */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif; 
+  
+}
+
+:root{
+  --txt4: var(--color4);
+  --txt5: var(--color5);
+  --txt6: var(--color6);
+  --txt7: var(--color7);
+  --txt8: var(--color8);
+
+
+  --color1: rgb(246,246,238);
+  --color2:#2E4942;
+  --color3: 97,118,113;
+  --color4: rgb(184,126,88);
+  --color5: rgb(46,73,66);
+  --color6: rgb(23,37,33);
+  --color7: rgb(223, 180, 137);
+  --color8: rgb(65,65,65);
+
+  --padding: 0px;
+}
+
+

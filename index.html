@@ -5,16 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consultor Imobiliário</title>
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/estilos.css">
+  <link rel="stylesheet" href="style/menu.css">
+  <link rel="stylesheet" href="style/corpo-apresentacao.css">
+  <link rel="stylesheet" href="style/corpo-show.css">
+  <link rel="stylesheet" href="style/corpo-servicos.css">
+  <link rel="stylesheet" href="style/corpo-depoimento.css">
+  <link rel="stylesheet" href="style/corpo-contato.css">
+  <link rel="stylesheet" href="style/rodape.css">
 </head>
 
 <body class="container">
-  <div class="hamburguer">
-    <div class="line" id="line1"></div>
-    <div class="line" id="line2"></div>
-    <div class="line" id="line3"></div>
-  </div>
+  
   <header class="cabecalho">
+    <div class="hamburguer">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
     <div class="cabecalho-logo">
       <img class="cabecalho-logo-imagem" src="images/home3.png" alt="Logo">
       <h2 class="cabecalho-logo-nome">Alice Mendes</h2>
@@ -23,29 +31,29 @@
 
   <div class="sidebar">
     <div class="hamburguer-sidebar">
-      <div class="line" id="line4"></div>
-      <div class="line" id="line5"></div>
+      <div class="line" id="line-fechamento-sidebar1"></div>
+      <div class="line" id="line-fechamento-sidebar2"></div>
     </div>
     <nav class="sidebar-menu">
 
       <div class="sidebar-menu-link">
-        <a href="">Inicio</a>
+        <a href="#acesso-rapido-apresentacao">Inicio</a>
       </div>
       <div class="sidebar-menu-link">
-        <a href="">Sobre</a>
+        <a href="#acesso-rapido-sobre">Sobre</a>
       </div>
       <div class="sidebar-menu-link">
-        <a href="">Serviços</a>
+        <a href="#acesso-rapido-servicos">Serviços</a>
       </div>
       <div class="sidebar-menu-link">
-        <a href="">Contato</a>
+        <a href="#acesso-rapido-contato">Contato</a>
       </div>
     </nav>
   </div>
 
 
-  <main class="corpo">
-    <section class="corpo-apresentacao">
+  <main class="corpo" >
+    <section class="corpo-apresentacao" id="acesso-rapido-apresentacao">
       <h1>Alice Mendes</h1>
       <p>Consultora Imobiliária</p>
     </section>
@@ -59,7 +67,7 @@
       </div>
     </section>
 
-    <section class="corpo-sobre">
+    <section class="corpo-sobre" id="acesso-rapido-sobre">
       <h2>Sobre Mim</h2>
       <div class="corpo-sobre-descricao">
         <p>Sou um parágrafo. Clique aqui para editar e adicionar o seu texto. É fácil! Basta clicar em "Editar Texto" ou
@@ -98,7 +106,7 @@
         </div>
 
     </section>
-    <section class="corpo-servico">
+    <section class="corpo-servico" id="acesso-rapido-servicos">
       <h2>Serviços</h2>
       <p>Experiência e Confiança</p>
       <div class="corpo-servico-descricao">
@@ -133,8 +141,6 @@
         <div id="next">&rarr;</div>
       </div>
 
-
-
       <div class="corpo-depoimentos">
         <div class="  depoimentos selectedd">
           <h2>Depoimentos</h2>
@@ -167,17 +173,19 @@
 
     </section>
 
-    <div class="corpo-contato-imagem">
-      <div class="corpo-contato-imagem-1">
-        <img src="images/contatoimagem1.webp" alt="">
-      </div>
-      <div class="corpo-contato-imagem-2">
-        <img src="images/contatoimagem2.webp" alt="">
-      </div>
-    </div>
+    
 
-    <section class="corpo-contato" id="contato">
-      <div class="corpo-contato-informacao">
+    <section class="corpo-contato">
+      <div class="corpo-contato-imagem">
+        <div class="corpo-contato-imagem-1">
+          <img src="images/contatoimagem1.webp" alt="">
+        </div>
+        <div class="corpo-contato-imagem-2">
+          <img src="images/contatoimagem2.webp" alt="">
+        </div>
+      </div>
+
+      <div class="corpo-contato-informacao" id="acesso-rapido-contato">
         <h2>Fale Comigo</h2>
         <p>
           Email

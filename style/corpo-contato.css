@@ -1,0 +1,98 @@
+.corpo-contato-imagem{
+    margin: 75px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  
+  }
+  .corpo-contato-imagem-1{
+    margin: 0 5rem;
+    padding:105px 71px 87px 72px;
+    background-color: var(--color4);
+  }
+  
+  .corpo-contato-imagem-2{
+    margin-top: 5rem;
+  }
+  
+  .corpo-contato{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  }
+  
+  .corpo-contato-informacao{
+    text-align: center;
+    text-decoration: none;
+    color: var(--txt5); 
+
+  }
+  .corpo-contato-informacao h2{
+   color: var(--txt5); 
+   margin-bottom: 30px;
+  }
+  
+  .corpo-contato-informacao p{
+   line-height: 1.7em;
+   font-size: 14px;
+  }
+  
+  .corpo-contato-informacao a{
+    color: inherit;
+  }
+  
+  .corpo-contato-envio{
+    margin: 80px auto;
+    position: relative;
+    width: 46%;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .corpo-contato-envio input, textarea{
+    padding: 16px 3px 16px 24px;
+    font-size: 20px;
+  }
+  
+  .corpo-contato-envio textarea{
+    height: 160px;
+  }
+  
+  ::-webkit-input-placeholder{
+    color: var(--txt7);
+  
+  }
+  .corpo-contato-envio-nome{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .corpo-contato-envio-nome input:first-child{
+    margin-right: 20px;
+  }
+  .info-mens {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  .corpo-contato-envio button{
+    display: flex;
+    margin: 30px auto 0;
+    background-color: #fff;
+    border: solid 1px var(--color4);
+    cursor: pointer !important;
+    padding: 12px 78px;
+    font-size: 16px;
+    color: var(--txt8);
+  }
+  
+  .corpo-contato-envio button:hover{
+    background-color: var(--color4);
+    color: #fff;
+    transition: .5s;
+  }

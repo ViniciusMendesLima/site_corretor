@@ -1,0 +1,29 @@
+.rodape{
+    display: flex;
+    bottom: 0;
+    height: 7rem;
+    position: relative;
+    background-color: #2E4942;
+  }
+  .rodape-info{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    
+  }
+  .midia-social{
+  margin-bottom: 12px;
+  }
+  
+  .midia-social a {
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  .rodape-info p{
+    letter-spacing: -0.03em;
+  }
+  .rodape-info a{
+    color: #fff;
+  }
