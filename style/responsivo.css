@@ -16,9 +16,14 @@
 
 @media(max-width: 700px) {
 
+    .cabecalho {
+        width: 100vh;
+    }
+
     .corpo-imagem{
-        padding-right: 50px;
-        height: 474px;
+        width: auto;
+        left: 0;
+
     }
  
     .corpo-imagem-2{
@@ -42,6 +47,11 @@
 
     .sidebar-menu-link a{
         font-size: 2.5rem;
+    }
+
+    .corpo-sobre-descricao {
+        width: auto;
+        padding: 0 1rem;
     }
 
     .corpo-servico{
@@ -101,4 +111,15 @@
         padding: 3px;
     }
 
+}
+
+@media(max-width: 450px) {
+
+
+    .corpo-imagem{
+
+        height: 300px; 
+
+
+    }
 }
