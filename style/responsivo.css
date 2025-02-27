@@ -16,6 +16,10 @@
 
 @media(max-width: 700px) {
 
+    .hamburguer-sidebar{
+        right: 0.7rem;
+    }
+
     .cabecalho {
         width: 100vh;
     }
