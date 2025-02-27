@@ -1,9 +1,9 @@
 .corpo-servico{
     text-align: center;
-    margin-top: 9.75rem;
+    padding-top: 5.75rem;
+    margin-bottom: 2rem;
     color: var(--txt5);
-    height: 40rem;
-    /* padding: 65px 0; */
+    height: auto;
     
     }
     

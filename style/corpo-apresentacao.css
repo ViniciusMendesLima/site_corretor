@@ -27,7 +27,6 @@
    display: flex;
    flex-direction: row;
   position: relative;
-  background-color: var(--color4);
   width: 92%;
   height: 548px;
   top: 270px;
@@ -41,7 +40,11 @@
   }
   
   .corpo-imagem-2{
-  margin: auto;
+    background-color: var(--color4);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .corpo-imagem-2-img{
   

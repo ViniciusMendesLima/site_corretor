@@ -1,0 +1,104 @@
+@media(max-width: 1240px) {
+
+    .show-imagens {
+        height: 100%;
+    }
+
+    .corpo-depoimentos .depoimentos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .corpo-depoimentos .depoimentos span{
+        font-weight: 300;
+    }
+}
+
+@media(max-width: 700px) {
+
+    .corpo-imagem{
+        padding-right: 50px;
+        height: 474px;
+    }
+ 
+    .corpo-imagem-2{
+        display: none;
+    }
+    
+
+    .corpo-imagem-1{
+        width: 100%;
+    }
+
+    .sidebar{
+        width: 50%;
+        height: 50%;
+    }
+    .sidebar-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sidebar-menu-link a{
+        font-size: 2.5rem;
+    }
+
+    .corpo-servico{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 2.5rem;
+    }
+    .corpo-servico-descricao{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        gap: 1.5rem;
+    }
+    .corpo-servico-descricao-caixa{
+        width: 300px;
+    }
+    .corpo-servico-descricao h3{
+        font-size: 25px;
+    }
+
+    .corpo-servico-descricao p{
+        font-size: 20px;
+    }
+
+    .corpo-depoimentos {
+        height: auto;
+        width: 75%;
+    }
+
+    .corpo-contato{
+        margin-bottom: 0;
+    }
+
+    .corpo-contato-imagem{
+        display: none;
+    }
+
+    .corpo-contato-informacao{
+        margin-top: 1.5rem;
+    }
+
+    .corpo-contato-envio {
+        width: 80%;
+        height: auto
+    }
+
+    .corpo-contato-envio-nome{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape-info p {
+        padding: 3px;
+    }
+
+}

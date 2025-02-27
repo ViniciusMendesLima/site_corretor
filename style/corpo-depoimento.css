@@ -9,7 +9,7 @@
   
   }
   .corpo-depoimentos{
-    height: 40vw;
+    height: auto;
     width: 42%;
     max-height: 447px;
     position: relative;
@@ -27,7 +27,7 @@
     opacity: 0;
     position: absolute;
     width: 538px;
-    height: 396px;
+    height: auto;
     margin: auto;
     color: #fff;
     transition: opacity 800ms;

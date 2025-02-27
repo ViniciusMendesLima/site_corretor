@@ -3,18 +3,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color1).0;
+  
+  background-color: var(--color1);
   width: 100%;
   position: fixed;
   padding: .56rem 2.5rem;
   z-index:5 ;
 
 }
-.cabecalho:hover {
-  background-color: var(--color1);
-  transition: 0.2s;
-}
-
 .hamburguer{
   width: 2rem;
   height: 2rem;

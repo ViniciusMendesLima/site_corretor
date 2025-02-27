@@ -7,6 +7,7 @@
 - Serviços oferecidos
 - Depoimentos
 - Contatos
+- Responsividade para dispositivos moveis
 
 ### Desafio
 - Fazer o texto da classe "corpo-show" ficar no centro
